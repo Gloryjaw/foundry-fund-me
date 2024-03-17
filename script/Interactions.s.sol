@@ -6,7 +6,7 @@ import {FundMe} from "../src/FundMe.sol";
 import {DevOpsTools} from "../lib/foundry-devops/src/DevOpsTools.sol";
 
 contract FundFundMe is Script {
-    uint256 SEND_VALUE = 0.1 ether;
+    uint256 SEND_VALUE = 0.01 ether;
 
     function fundFundMe(address mostRecentlyDeployed) public {
         vm.startBroadcast();
