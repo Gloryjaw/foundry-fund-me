@@ -54,6 +54,6 @@ cast send <contract address> "withdraw()" --rpc-url <endpoint url> --account <ke
 ```
 
 ## Thank you
-Thanks to [Cyfrin](updraft.cyfrin.io) and [Patrick Collins}(https://github.com/PatrickAlphaC) for this amazing project. Love you guys!!!!!
+Thanks to [Cyfrin](updraft.cyfrin.io) and [Patrick Collins](https://github.com/PatrickAlphaC) for this amazing project. Love you guys!!!!!
 
 
