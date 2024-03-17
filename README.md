@@ -1,66 +1,15 @@
-## Foundry
+## What it is?
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+It is a smart contract in which users can fund native tokens to the owner of contract. It also keeps track of the funders and
+how much they have donated. Owner can then withdraw the money whenever he/she want. This project is made with foundry, which
+is the framework to create, test and deploy smart contract and it's blazingly fast!!
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
+## Quick Start
 
 ```shell
+$ git clone https://github.com/Gloryjaw/foundry-fund-me.git
+$ make install
 $ forge build
+
 ```
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
